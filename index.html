@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<!-- Insert code for Title Icon and other descriptions for the website -->
+	<title>SHC Library System | Multi-Library System</title>
+	<meta name="Keyword" content="IBED-LRC, SHS-LRC, IMC, AVR, Library-Sytem, OPAC, MARC21, RDA, BOOK, Periodical, AV Material" charset="UTF-8">
+	<!-- Site Description -->
+	<meta name="Description" content="A new take on the library system for Sacred Heart College of Lucena, Inc. Libraries developed by Richard Alphege A. Ravalo, RL" charset="UTF-8">
+	<!-- Responsive site code -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<!-- Site Icon here -->
+	<link rel="icon" href="images/CD_files.ico" type="image/x-icon">
+	<!-- CSS code here -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- JavaScript code here -->
+</head>
+	<!-- Live Reload Script -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!-- Body Section Starts Here -->
+<body background="images/bgimage_1.jpg" id="bodybg">
+	<nav class="nav-list">
+		<a href="index.html">
+			<img src="images/shang-pic.jpg" class="logo">
+		</a>
+		<!-- LogIn Form -->
+		<div id="LogIn-form">
+			<button class="Logbtn" onclick="document.getElementById('id01').style.display='block'" style="width: auto;">Login</button>
+
+			<div id="id01" class="modal">
+				<form action="#" class="modal-content animate">
+					
+					<div class="imgcontainer">
+						<span onclick="document.getElementById('id01').style.display='none'" onkeydown="" class="close" title="Close Modal">&times;</span>
+							<!--<img src="images/shang-pic.jpg" alt="Avatar" class="avatar">-->
+							<h1 class="modaltitle">
+									Sacred Heart College<br>
+									Multi-Library System
+							</h1>
+					</div>
+
+					<div class="container">
+						<label><b>Username</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
+						<label><b>Password</b></label>
+							<input type="text" placeholder="Enter Password" name="pswd" required>
+						<button type="submit">Login</button>
+							<input type="checkbox">Remember me
+					</div>
+
+					<div class="container" style="background-color: #f1f1f1">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						<span class="pswd">Forgot <a href="#">password?</a></span>
+					</div>
+				</form>			
+			</div>
+			
+			<script type="text/javascript">
+			// Get the modal
+			var modal = document.getElementById('id01');
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+			</script>
+		</div>
+	</nav>
+
+	<div class="tblstat">
+		<table border="1" cellspacing="3" cellpadding="5">
+			<tr>
+				<td>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+				</td>
+
+				<td>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+				</td>
+
+				<td>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+<hr width="95%" style="height: 4px; background-color: red; border-radius: 25px;">
+
+	<h1><b><u>News:</u></b></h1>
+
+	<footer>
+		Copyright:
+		Richard Alphege A. Ravalo, RL
+	</footer>
+	<!-- Body Section Ends Here -->
+	</body>
+</html>
